@@ -1,0 +1,5 @@
+<launch>
+    <node name="joy_node" pkg="joy" type="joy_node" output="screen" respawn="false"/>
+    <node name="joy_controller" pkg="joy_controller" type="controller.py" output="screen" />
+</launch>
+
